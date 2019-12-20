@@ -1,0 +1,95 @@
+.side-drawer {
+    height:100%;
+    background:linear-gradient(to bottom, rgb(17, 17, 17),rgb(54, 18, 40),rgb(160, 155, 134), rgb(61, 33, 33), rgb(0, 0, 0));
+    background: linear-gradient(45deg, rgb(1, 1, 5), rgb(0, 28, 88), rgb(5, 5, 1));
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top:2px solid rgb(219, 206, 164);
+    border-bottom:2px solid rgb(219, 206, 164);
+    border-left:2px solid rgb(219, 206, 164);
+    position: fixed;
+    top:0;
+    right:0;
+    width:230px;
+    max-width:500px;
+    z-index:200;
+    transform:translateX(110%);
+    transition: transform 0.4s ease-out;
+    overflow: hidden;
+   
+    
+}
+
+.side-drawer.open{
+    transform:translateX(0%);
+}
+
+.side-drawer ul{
+    height:100%;
+    list-style: none;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    max-height:3rem;
+    
+}
+
+.side-drawer ul{
+    height:100%;
+    list-style: none;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    max-height:none;
+    
+}
+
+.side-drawer a:hover{
+    transform:scale(1.1);
+    transition: transform 0.1s ease-in-out;
+}
+
+.side-drawer li{
+    top:2rem;
+    margin: 0.5rem 0.0rem 1.5rem -2.5rem;
+    border-bottom:1px solid rgb(73, 72, 72);
+    position:relative;
+    padding: 0px 15px;
+}
+.side-drawer li:hover{
+        
+        transition: transform 0.1s ease-in-out;
+}
+
+.side-drawer a{
+    color:rgb(216, 208, 208);
+    text-decoration:none;
+    font-size:1rem;
+    text-align:center;
+    font-family:Saira;
+    -webkit-text-stroke:0.00001px #3433;
+    text-shadow:2px 2px 0 black,
+                1px 3px 0 #000,
+                1px 2px 0 #000,
+                1px 2px 0 #000,
+                2px 3px 0 #000;
+    
+}
+
+.drawerline{
+    width:30px;
+    height:2px;
+    background:rgb(209, 204, 189);
+    border-color:1px solid black;
+    
+  }
+
+  .Nav_btn{
+    background: linear-gradient(to left, rgb(1, 1, 5), rgb(0, 28, 88), rgb(1, 1, 5));
+    border-radius:10px;
+  }
+
+  .side-drawer nav-link{
+padding:none;
+      
+  }

@@ -1,0 +1,131 @@
+.modal_product{
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(7, 1, 1, 0.027);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    z-index:1000;
+    overflow:hidden;
+   
+    
+}
+
+#modal{
+    background: linear-gradient(to left, rgb(1, 1, 5), rgb(0, 28, 88), rgb(1, 1, 5));
+    border-radius:25px;
+    border:1px solid rgb(226, 188, 62);
+    overflow:hidden;
+
+}
+
+#modalcheckout{
+ 
+    width:700px;
+    background: linear-gradient(to left, rgb(1, 1, 5), rgb(0, 28, 88), rgb(1, 1, 5));
+    border-radius:25px;
+    border:1px solid rgb(226, 188, 62);
+    overflow:hidden;
+    height:580px;
+    overflow-y: auto;
+    overflow-x:hidden;
+
+}
+
+.modal_header{
+    font-family:"Orbitron",cursive;
+    letter-spacing: 0.3rem;
+    color:rgb(226, 188, 62);
+}
+.gethydro:hover{
+text-decoration: none!important;
+}
+
+.modal_store_button{
+    border-radius:10px;
+    padding:10px 20px;
+    background: linear-gradient(to left, rgb(1, 1, 5), rgb(0, 28, 88));
+    color:rgb(226, 188, 62);
+    border-bottom:1px solid  rgb(219, 206, 164);
+    border-top:1px solid  rgb(219, 206, 164);
+    border-left: 2px solid rgb(219, 206, 164);
+    border-right: 2px solid rgb(219, 206, 164);
+    box-shadow:0 0 1px rgb(238, 193, 47), 0 0 1px rgb(247, 191, 10);
+    margin-top:10px;
+    margin-right:10px;
+    overflow:hidden;
+    text-shadow:2px 2px 0 black,
+    1px 3px 0 #000,
+    1px 2px 0 #000,
+    1px 2px 0 #000,
+    2px 3px 0 #000;
+    transition: all 0.3s linear;
+}
+
+.modal_cart_button{
+    border-radius:10px;
+    padding:10px 20px;
+    background: linear-gradient(to left, rgb(1, 1, 5), rgb(0, 28, 88));
+    color:rgb(226, 188, 62);
+    border-bottom:1px solid  rgb(219, 206, 164);
+    border-top:1px solid  rgb(219, 206, 164);
+    border-left: 2px solid rgb(219, 206, 164);
+    border-right: 2px solid rgb(219, 206, 164);
+    box-shadow:0 0 1px rgb(238, 193, 47), 0 0 1px rgb(247, 191, 10);
+    margin-top:10px;
+    margin-left:10px;
+    overflow:hidden;
+    text-shadow:2px 2px 0 black,
+    1px 3px 0 #000,
+    1px 2px 0 #000,
+    1px 2px 0 #000,
+    2px 3px 0 #000;
+    transition: all 0.3s linear;
+}
+
+.modal_cart_button:hover, .modal_store_button:hover{
+    color:white;
+    }
+
+.modal_price{
+    font-family:"Orbitron",cursive;
+    letter-spacing: 0.3rem;
+    color:white;
+    padding-top:7px;
+    padding-bottom:10px;
+    overflow:hidden;
+}
+
+.modal_title{
+    font-family:"Orbitron",cursive;
+    letter-spacing: 0.3rem;
+    color:rgb(226, 188, 62);
+    padding-top:7px;
+    padding-bottom:10px;
+    border-left:1px solid rgb(226, 188, 62);
+    border-right:1px solid rgb(226, 188, 62);
+    border-bottom:2px solid rgb(226, 188, 62);
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    overflow:hidden;
+  }
+
+.modal_image{
+   
+    background: linear-gradient(to right, rgb(1, 1, 5), rgb(0, 28, 88));
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border:2px solid rgb(226, 188, 62);
+
+}
+
+.modal_input{
+    border-radius:15px;
+    color:rgb(241, 241, 241);
+    width:100%;
+    text-align: center;
+    
+}

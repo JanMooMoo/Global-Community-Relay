@@ -1,0 +1,137 @@
+.product_details_button{
+  border-radius:10px;
+  padding:10px 20px;
+  background: linear-gradient(to left, rgb(1, 1, 5), rgb(0, 28, 88));
+  color:rgb(226, 188, 62);
+  border-bottom:1px solid  rgb(219, 206, 164);
+  border-top:1px solid  rgb(219, 206, 164);
+  border-left: 2px solid rgb(219, 206, 164);
+  border-right: 2px solid rgb(219, 206, 164);
+  box-shadow:0 0 1px rgb(238, 193, 47), 0 0 1px rgb(247, 191, 10);
+  text-shadow:2px 2px 0 black,
+  1px 3px 0 #000,
+  1px 2px 0 #000,
+  1px 2px 0 #000,
+  2px 3px 0 #000;
+  margin-right:10px;
+  transition: all 0.3s linear;
+}
+
+.product_cart_button{
+    border-radius:10px;
+    padding:10px 20px;
+    background: linear-gradient(to left, rgb(1, 1, 5), rgb(0, 28, 88));
+    color:rgb(226, 188, 62);
+    border-bottom:1px solid  rgb(219, 206, 164);
+    border-top:1px solid  rgb(219, 206, 164);
+    border-left: 2px solid rgb(219, 206, 164);
+    border-right: 2px solid rgb(219, 206, 164);
+    box-shadow:0 0 1px rgb(238, 193, 47), 0 0 1px rgb(247, 191, 10);
+    text-shadow:2px 2px 0 black,
+    1px 3px 0 #000,
+    1px 2px 0 #000,
+    1px 2px 0 #000,
+    2px 3px 0 #000;
+    transition: all 0.3s linear;
+    
+  }
+
+  .product_cart_button:hover, .product_details_button:hover{
+  color:white;
+  }
+
+  .product_heading{
+    font-family:"Orbitron",cursive;
+    letter-spacing: 0.3rem;
+    text-transform:uppercase;
+    color:white;
+    margin-top:3px;
+    text-shadow:2px 2px 0 black,
+    1px 3px 0 #000,
+    1px 2px 0 #000,
+    1px 2px 0 #000,
+    2px 3px 0 #000;
+  }
+
+  .product_name{
+    font-family:"Orbitron",cursive;
+    letter-spacing: 0.3rem;
+    color:rgb(226, 188, 62);
+  }
+
+  .product_price{
+    font-family:"Orbitron",cursive;
+    letter-spacing: 0.3rem;
+    color:white;
+  }
+
+  .heading_info{
+    font-family:"Orbitron",cursive;
+    letter-spacing: 0.3rem;
+    color:rgb(226, 188, 62);
+  }
+
+  .product_info{
+    font-family:"Orbitron",cursive;
+    letter-spacing: 0.3rem;
+    color:white;
+  }
+
+  .image_detail{
+      padding:20px;
+      background: linear-gradient(to right, rgb(1, 1, 5), rgb(0, 28, 88));
+      border-radius:15px;
+      border:1px solid rgb(219, 206, 164);
+  }
+
+
+  .myCartButton{ 
+    text-transform:capitalized;
+    text-align:center;
+    position: relative;
+    width:100%;
+    min-width:140px;
+    height:39px;
+    background: linear-gradient(to left, rgb(1, 1, 5), rgb(0, 28, 88));
+    border-bottom:1px solid  rgb(219, 206, 164);
+    border-top:1px solid  rgb(219, 206, 164);
+    border-left: 2px solid rgb(219, 206, 164);
+    border-right: 2px solid rgb(219, 206, 164);
+    font-family:"Orbitron",cursive;
+    letter-spacing: 0.3rem;
+    color:rgb(226, 188, 62);
+    border-radius:10px;
+    font-size:.8rem;
+    box-shadow:0 0 1px rgb(238, 193, 47), 0 0 1px rgb(247, 191, 10);
+    cursor:pointer;
+    margin-bottom:10px;
+    display: inline-block;
+    margin-right:14px;
+    overflow:hidden;
+    transition:all 0.2s ease-in-out;
+    -webkit-text-stroke:0.00001px #3433;
+        text-shadow:2px 2px 0 black,
+                    1px 3px 0 #000,
+                    1px 2px 0 #000,
+                    1px 2px 0 #000,
+                    2px 3px 0 #000;
+    }
+
+    @media(max-width:980px){
+    .myCartButton {
+     bottom:1px;
+     margin-left:0px;
+            
+        }
+    }
+
+    .myCartButton:hover{
+    
+        background: linear-gradient(to left, rgb(1, 1, 5), rgb(22, 63, 150));
+        transition:all 0.2s ease-in-out;
+        border-bottom:1px solid  rgb(219, 206, 164);
+        border-top:1px solid  rgb(219, 206, 164);
+        border-left: 2px solid rgb(219, 206, 164);
+        border-right: 2px solid rgb(219, 206, 164);
+        color:white;
+    }

@@ -1,0 +1,165 @@
+.flipNews{
+    border:1px solid  rgb(160, 155, 134);
+    color:rgb(251, 253, 255);
+    width:500;
+    bottom:0;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: 'Frank Ruhl Libre', serif;
+    -webkit-text-stroke:0.00001px #3433;
+    text-shadow:2px 2px 0 black,
+                1px 3px 0 #000,
+                1px 2px 0 #000,
+                1px 2px 0 #000,
+                2px 3px 0 #000;
+}
+
+.flipNews:after,
+.flipNews:before{
+  content:'';
+  position:absolute;
+  top:-2px;
+  left:-2px;
+  background: linear-gradient(45deg,rgb(61, 33, 7),rgb(202, 196, 170), rgb(48, 40, 40),rgb(160, 155, 134));
+  background-size:400%;
+  width:calc(100% + 4px);
+  height:calc(100% + 4px);
+  z-index:-1;
+
+  }
+
+ 
+.flipNews:after{
+  filter:blur(5px);
+  }
+
+@media(max-width:500px){
+.flipNews:after{
+  filter:none;
+  }
+}
+
+
+.flipNews:hover:hover{
+    z-index:100;
+   
+  }
+
+  .flipNews:hover .partner-banner{
+    transform:translateY(0);
+    opacity:1;
+    visibility:visible;
+   
+  }
+
+.flipcard{
+  height:387px;
+  background: transparent;
+ 
+  margin-top:5px;
+  margin-left:5px;
+  margin-right:5px;
+  border-top:2px solid rgb(160, 155, 134);
+  border-bottom:2px solid rgb(160, 155, 134);
+  border-left: 2px solid rgb(160, 155, 134);
+  border-right:2px solid rgb(160, 155, 134);
+  text-align:center;
+  overflow:hidden;
+  font-family: 'Frank Ruhl Libre', serif;
+  
+  
+}
+
+
+.radius{
+padding:10px;
+letter-spacing: 0.2rem;
+text-transform:capitalize;
+font-family:"Orbitron",bold;
+text-align:center;
+color:rgb(226, 188, 62);
+
+}
+
+
+.partner-banner{
+    
+    bottom:1;
+    background:rgba(19, 2, 4, 0.315);
+    background:linear-gradient(to top, rgb(61, 61, 218), rgb(0, 28, 88), rgb(1, 1, 8));
+    opacity: 0.7;
+    height:7%;
+    width:70%;
+    border-radius:60px;
+    border-top:1px solid rgb(134, 131, 118);
+    border-bottom:1px solid rgb(214, 201, 149);
+    text-align:center;
+    font-family: 'Frank Ruhl Libre', serif;
+    transition:0.3s;
+    transform:translateY(-40px);
+    opacity:0;
+    visibility:hidden;
+    color:rgb(190, 208, 228);      
+    text-transform: Capitalize;
+    position:absolute;
+    overflow:hidden;
+    }
+
+    .topButton {
+      position: fixed;
+      bottom: 10px;
+      float: right;
+      right: 18.5%;
+      left: 93.25%;
+      height: 50px;
+      max-width: 50px;
+      max-height: 50px;
+      width: 100%;
+      font-size: 12px;
+      border-color: rgb(214, 201, 149);
+      background:linear-gradient(to bottom, rgb(61, 61, 218), rgb(0, 28, 88), rgb(1, 1, 8));
+      padding: .5px;
+      border-radius: 8px;
+      scroll-behavior: smooth;
+      z-index:100;
+      color:rgb(226, 188, 62);
+  }
+
+  @media(max-width:900px){
+  .topButton {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 80.25%;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgb(214, 201, 149);
+    background:linear-gradient(to bottom, rgb(61, 61, 218), rgb(0, 28, 88), rgb(1, 1, 8));
+    padding: .5px;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    z-index:100;
+}}
+/*On Hover Color Change*/
+  .topButton:hover {
+    color:rgb(243, 243, 242);
+    background-color: #7dbbf1;
+    scroll-behavior: smooth;
+    z-index:1;
+  }
+
+  .partner-image{
+    max-height:500px;
+    width:100%;
+    border:3px solid rgb(34, 65, 241);
+    box-shadow:0 0 5px rgb(240, 231, 197), 0 0 15px rgb(113, 236, 236);
+    margin-top:10px;
+    border-radius:25px;
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-right:20px;
+  }

@@ -1,0 +1,95 @@
+.modalsubmit{
+   
+  border-radius:10px;
+  margin-top:12px;
+  width:100%;
+  height:40px;
+  background: linear-gradient(45deg, rgb(0, 28, 88), rgb(45, 63, 224));
+  color:rgb(226, 188, 62);
+  text-shadow:2px 2px 0 black,
+  1px 3px 0 #000,
+  1px 2px 0 #000,
+  1px 2px 0 #000,
+  2px 3px 0 #000;
+  font-family:"Orbitron",bold;
+  letter-spacing: 0.1rem;
+  transition: all .3s ease-in-out ;
+
+  }
+  .modalsubmit:hover{
+    color:white;
+    
+  }
+
+
+  .modalsearch{
+    border-radius:10px;
+    color:black;
+    width:100%;
+    height:40px;
+    font-size:1.1rem;
+    text-align: center;
+    border: 2px solid rgb(219, 206, 164);
+    
+  }
+
+  .gethydro{
+   
+    margin-left:12px!important;
+    border-radius:25px;
+    color:rgb(19, 14, 14);
+    width:100%;
+    
+    text-align: center;
+    text-shadow:2px 2px 0 black,
+    1px 3px 0 #000,
+    1px 2px 0 #000,
+    1px 2px 0 #000,
+    2px 3px 0 #000;
+  
+  }
+
+ 
+
+  .ct-toast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    background: linear-gradient(to right, rgb(1, 1, 5), rgb(0, 28, 88))!important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    color: rgb(226, 188, 62)!important;
+    border-radius: 20px!important;
+    margin: 0px;
+    opacity: 1;
+    transition: 0.3s all ease-in-out;
+    min-height: 45px;
+    pointer-events: all;
+    font-family:"Orbitron",bold;
+    letter-spacing: 0.1rem;
+    border: 1.5px solid rgb(226, 188, 62);
+    overflow: hidden;
+    font-size:0.6rem;
+    
+  }
+
+  @media(max-width:700px){
+    .ct-toast{
+      
+    }
+  }
+
+  .metamaskrequired{
+    font-family:"Orbitron",bold;
+    text-transform:uppercase;
+    letter-spacing: 0.2rem;
+    color:rgb(128, 224, 39);
+
+  }
+
+.image{
+  margin-left:30px!important;
+}
+  
+  
+ 
